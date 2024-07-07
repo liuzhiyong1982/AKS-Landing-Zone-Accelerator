@@ -25,6 +25,10 @@ jobs:
     - name: 'Set up Terraform CLI'
       uses: hashicorp/setup-terraform@v3
 
+    - name: 'Terraform version'
+      id: version
+      run: terraform version
+
 
           
   

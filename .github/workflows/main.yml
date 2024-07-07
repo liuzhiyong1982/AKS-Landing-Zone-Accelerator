@@ -19,5 +19,5 @@ jobs:
     - name: 'Run Azure CLI commands'
       run: |
           az account show
-          az group list
+          az group list -o table
           pwd 

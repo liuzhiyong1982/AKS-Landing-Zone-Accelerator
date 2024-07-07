@@ -21,3 +21,11 @@ jobs:
           az account show
           az group list -o table
           pwd 
+    
+    - name: 'Set up Terraform CLI'
+      uses: hashicorp/setup-terraform@v3
+
+
+          
+  
+    

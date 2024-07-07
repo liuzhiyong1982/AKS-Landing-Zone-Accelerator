@@ -21,13 +21,10 @@ jobs:
           az account show
           az group list -o table
           pwd 
+          ls
     
     - name: 'Set up Terraform CLI'
       uses: hashicorp/setup-terraform@v3
-
-    - name: 'Terraform version'
-      id: version
-      run: terraform version
     
     - name: Terraform fmt
       id: fmt
